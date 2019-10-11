@@ -1,0 +1,135 @@
+body {
+  background: #fcf9ea;
+  margin: 0;
+}
+
+h1 {
+  color: #afbc70;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: "Special Elite", cursive;
+}
+
+/* Menu */
+.navbar {
+  background: #afbc70;
+}
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+.nav-item {
+  text-decoration: none;
+  padding: 20px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-top: 10px;
+}
+a {
+  color: #fcf9ea;
+  text-decoration: none;
+}
+
+.nav-right {
+  color: #fcf9ea;
+  font-family: "Special Elite", cursive;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+/* header */
+.header-img {
+  height: 500px;
+  width: 95%;
+  margin-left: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+}
+
+.center {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: #8294a4;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 400px;
+  height: 200px;
+  margin: 30px;
+  display: block;
+  text-align: center;
+  font-family: "Special Elite", cursive;
+  color: #8294a4;
+  font-size: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.icon {
+  padding: 15px;
+  width: 75px;
+  height: 75px;
+}
+
+.category-item {
+  display: block;
+  margin-left: 350px;
+  padding-bottom: 50px;
+}
+
+.topp {
+  position: absolute;
+  left: 725px;
+  top: 1200px;
+}
+
+.topp:hover {
+  cursor: pointer;
+}
+
+#test {
+  margin-right: 25px;
+}
+
+.bott {
+  position: absolute;
+}
+
+footer {
+  background: #afbc70;
+  text-align: center;
+  height: 30px;
+  font-family: "Special Elite", cursive;
+  color: #fcf9ea;
+  padding-top: 15px;
+}
+
+h4 {
+  margin: 0;
+  padding-top: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+

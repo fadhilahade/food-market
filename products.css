@@ -1,0 +1,93 @@
+body {
+  background: #fcf9ea;
+  margin: 0;
+}
+
+h1 {
+  color: #afbc70;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: "Special Elite", cursive;
+  padding-top: 50px;
+}
+
+/* Menu */
+.navbar {
+  background: #afbc70;
+}
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+.nav-item {
+  text-decoration: none;
+  padding: 20px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-top: 10px;
+}
+a {
+  color: #fcf9ea;
+  text-decoration: none;
+}
+
+.nav-right {
+  color: #fcf9ea;
+  font-family: "Special Elite", cursive;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.main-page {
+  height: 780px;
+}
+
+.prod-img {
+  width: 360px;
+  height: 250px;
+  margin-bottom: 5px;
+}
+
+.market-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 125px;
+}
+
+.market {
+  border: 3px solid #afbc70;
+  background: #afbc70;
+  width: 360px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding-left: 0;
+  padding-bottom: 10px;
+  color: #fcf9ea;
+  font-family: "Special Elite", cursive;
+  text-align: center;
+  font-size: 26px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.market:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+footer {
+  background: #afbc70;
+  text-align: center;
+  height: 30px;
+  font-family: "Special Elite", cursive;
+  color: #fcf9ea;
+  padding-top: 15px;
+}
